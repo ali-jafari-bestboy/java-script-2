@@ -2,7 +2,7 @@
 let hi = {English:"Hello World", Farsi:"SALAM JAHAN", Greek:"Γειά σου Κόσμε"};
 console.log(hi)
 //2
-console.log("I'm awesome");
+console.log("I'm awesome");//The problem is in (') if you want to add strang you have to use ("....")
 //3
 let x;
 console.log(x)
@@ -13,10 +13,22 @@ console.log(x)
 //4
 
 const y='jafari';
-console.log('that is my family name');
+console.log("the value of y will be :'that is my family name'")
 console.log(y);
 //5
-//i ahave to write in this place for number 5
+const z=7.25;
+console.log(z)
+const a = Math.round(7.25)
+console.log(a)
+let b =0;
+if (a>z){
+    b=a;
+}
+else{
+    b=z;
+}
+console.log(b)
+
 //6
 myarray =[];
 console.log(myarray);
